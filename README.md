@@ -10,7 +10,9 @@ All codes are written in C language. The source codes and their headers are resp
 ## How to run
 To run the computational implementations of Hi-C, SPRITE and GAM over SBS polymer structures the following steps are needed:
 1. In the *main* directory, compile the C program main.c using the customized compiler compile.sh with the following command:
+```
 ./compile.sh main.c
+```
 2. That generates the executable main.out. It must be launched on the command line according to the following syntax:
 ```
 ./main.out   which_method   Ncells   efficiency
