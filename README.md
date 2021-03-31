@@ -1,6 +1,6 @@
 # *In-silico* implementation of Hi-C, GAM and SPRITE methods
 ## Authors
-Luca Fiorillo and Francesco Musella
+Luca Fiorillo and Francesco Musella.
 ## Reference
 Fiorillo et al., *“Comparison of the Hi-C, GAM and SPRITE methods by using polymer models of chromatin”* (2021).
 ## Details
