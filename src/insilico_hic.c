@@ -95,7 +95,7 @@ double **HIC_SINGLE_STRUCTURE(double p_crosslinking, double p_biotinylation, dou
 }
 
 double **HIC_EXPERIMENT(int N_cells, double p_crosslinking, double p_biotinylation, double p_ligation, double p_detection)
-// This function implements a proxy of an Hi-C experiment over a population of simulated cells
+// This function implements a proxy of an Hi-C experiment over a population of in-silico cells
 {
     double **hic_matrix = initialize_contact_matrix();
     int structure_index = 1 + (int) floor(drand48() * N_structures);
