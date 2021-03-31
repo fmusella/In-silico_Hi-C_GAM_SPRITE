@@ -21,7 +21,7 @@ To run the computational implementations of Hi-C, SPRITE and GAM over SBS polyme
   -	Ncells indicates the number of in-silico cells to employ.
   -	efficiency indicates the efficiency whereby the computational version of Hi-C, SPRITE or GAM is performed.
 
-For example, to run the in-silico version of Hi-C over 100 in-silico cells at 0.05 efficiency, the following command must be typed:
+For example, to run the in-silico version of Hi-C over 100 *in-silico* cells at 0.05 efficiency, the following command must be typed:
 ```
 ./main.out 1 100 0.05
 ```
