@@ -2,7 +2,7 @@
 ## Authors
 Luca Fiorillo and Francesco Musella.
 ## Reference
-Fiorillo et al., *“Comparison of the Hi-C, GAM and SPRITE methods by using polymer models of chromatin”* (2021).
+Fiorillo, L., Musella, F., Conte, M. et al. Comparison of the Hi-C, GAM and SPRITE methods using polymer models of chromatin. Nat Methods 18, 482–490 (2021). https://doi.org/10.1038/s41592-021-01135-1
 ## Details
 We provide the algorithms to simulate simplified versions of Hi-C, GAM and SPRITE experiments over model polymer structures. The algorithms require as input the spatial coordinates of polymer 3D structures. To account for the two alleles present in real single cells, we consider pairs of polymer structures, which we refer to as *in-silico* cells. By iterating the algorithms over pairs of structures we simulate experiments carried over a population of cells. Here, we provide the SBS model 3D conformations of the Sox9 locus (mESC chr11:109-115Mb, mm9). The output of the Hi-C and SPRITE algorithms is an *in-silico* contact matrix, showing the detected contacts between pairs of polymer segments. For the GAM algorithm, the output is an *in-silico* co-segregation matrix, reporting the frequencies whereby pairs of polymer segments are detected in random slices. 
 
